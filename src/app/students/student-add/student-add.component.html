@@ -1,0 +1,23 @@
+<div class="container p-4">
+  <label for="post-title">First Name</label>
+  <div class="input-group mb-3">
+    <input 
+      type="text" 
+      class="form-control" 
+      id="firstName" 
+      placeholder="First Name" 
+      [(ngModel)]="firstName">
+  </div>  
+  <label for="age">Last Name</label>
+  <div class="input-group mb-3">
+    <input 
+      type="text" 
+      class="form-control" 
+      id="lastName" 
+      placeholder="Last Name" 
+      [(ngModel)]="lastName">
+  </div>  
+  <div class="text-center">
+    <button class="btn btn-primary my-2" (click)="addStudent()">Add Student</button>
+  </div>
+</div>
